@@ -56,5 +56,9 @@ attr_accessor :board , :player_1 , :player_2
   
   def play 
     self.turn
+<<<<<<< HEAD
+=======
+    self.play unless self.over?
+>>>>>>> bca952f8fecca047d747361c4b8195d528bc1ea3
   end
 end
